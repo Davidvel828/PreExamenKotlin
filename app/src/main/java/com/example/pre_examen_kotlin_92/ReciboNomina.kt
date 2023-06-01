@@ -43,7 +43,7 @@ class ReciboNomina  {
         resultado = (pagoBase * horasTrabajadas) + (horasExtras * pagoPorHoras * 2)
 
         return resultado.toFloat()
-    }
+     }
 
     fun calcularImpuesto(): Float {
         val resultado = calcularSubtotal() * 0.16

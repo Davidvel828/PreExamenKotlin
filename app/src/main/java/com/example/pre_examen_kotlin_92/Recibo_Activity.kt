@@ -46,16 +46,16 @@ class Recibo_Activity : AppCompatActivity() {
 
         btnGenerar.setOnClickListener {
                 if(txtNumeroRecibo.text.toString().equals("") || txtNombre.text.toString().equals("") || txtHorasTrabajadas.text.toString().equals("") || txtHorasExtras.text.toString().equals("") )
-                {
+                 {
                     Toast.makeText(applicationContext, "No deje campos vacios", Toast.LENGTH_SHORT).show()
-                }
+                 }
                 else
-                {
+                 {
                     btnGenerar()
 
-                }
+                 }
 
-        }
+         }
 
         btnLimpiar.setOnClickListener {
             btnLimpiar()

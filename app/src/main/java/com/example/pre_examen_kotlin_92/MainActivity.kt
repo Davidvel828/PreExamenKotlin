@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         btnSalir.setOnClickListener {
             btnSalir()
         }
-    }
+     }
 
 
     private fun iniciarComponentes() {
