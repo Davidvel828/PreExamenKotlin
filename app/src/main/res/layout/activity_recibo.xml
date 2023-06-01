@@ -238,7 +238,7 @@
         android:backgroundTint="#4CAF50"
         android:textColor="#FFFFFF"
 
-        android:text="CALCULAR"
+        android:text="Calcular"
         app:layout_constraintTop_toBottomOf="@id/txttotalPagar">
 
     </Button>
@@ -248,7 +248,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnLimpiar"
-        android:text="LIMPIAR"
+        android:text="Limpiar"
         android:backgroundTint="#FF5722"
         android:textColor="#FFFFFF"
 
@@ -261,7 +261,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnRegresar"
-        android:text="REGRESAR"
+        android:text="Regresar"
         android:backgroundTint="#EC0000"
         android:textColor="#FFFFFF"
 
