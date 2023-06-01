@@ -18,9 +18,9 @@ class MainActivity : AppCompatActivity() {
 
 
         iniciarComponentes()
-        btnIngresar.setOnClickListener {
+        btnIngresar.setOnClickListener   {
             btnIngresar()
-        }
+          }
 
         btnSalir.setOnClickListener {
             btnSalir()
