@@ -1,6 +1,6 @@
 package com.example.pre_examen_kotlin_92
 
-class ReciboNomina {
+class ReciboNomina  {
 
 
     var numRecibo: Int = 0
@@ -9,6 +9,8 @@ class ReciboNomina {
     var horasExtras: Double = 0.0
     var puesto: Int = 0
     var impuestoPor: Double = 0.0
+
+
 
     constructor(
         numRecibo: Int,
